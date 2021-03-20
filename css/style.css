@@ -3,15 +3,31 @@
     padding: 0px;
 }
 
-.h2{
-    background-color: darkblue;
-}
-
-.container{ 
+.container{
     width: 100%;
-    height: auto;
+    height: 100vh;
+    background-color: blue;
     border-top: 100px solid darkorange;
 }
 
-
+.container .row{
+    width: 80%;
+    margin: 0 auto;
+    background-color: blueviolet;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
 }
+
+.container .row .col-30{
+    width: 30%;
+    height: 40vh;
+    background-color: cadetblue;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+}
+

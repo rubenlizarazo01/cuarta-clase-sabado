@@ -1,0 +1,10 @@
+.body{
+    margin: 0px;
+    padding: 0px;
+}
+
+.container{
+    width: 100%;
+    height: auto;
+    border-top: 100px solid darkorange;
+}
